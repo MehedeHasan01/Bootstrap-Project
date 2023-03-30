@@ -1,0 +1,96 @@
+.phone-video{
+    cursor: pointer;
+}
+
+.live-modal-img{
+    cursor: pointer;
+}
+
+.logo-1:hover {
+    transform: rotate(4deg);
+}
+
+.logo-2:hover {
+    transform: rotate(-4deg);
+}
+
+.navbar-toggler:hover {
+    transform: scale(1.05);
+    border: 1px solid rgba(167, 131, 131, 0.651);
+    transition: .5s;
+}
+
+.img-thumbnail:hover {
+    transition: .5s;
+    overflow: hidden;
+    transform: rotate(4deg);
+}
+
+
+.text-decoration-none:hover {
+    transition: .5s;
+    transform: scale(1.05);
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
+
+.tooltip-2 {
+    --bs-tooltip-bg: var(--bs-dark);
+}
+
+.card-1:hover {
+    transition: .5s;
+    transform: scale(1.05);
+
+}
+
+.card-2:hover {
+    transition: 0.5s;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.card-3:hover {
+    transition: 0.5s;
+    transform: scale(1.01);
+}
+
+.scrollspy-example {
+    overflow: hidden;
+}
+
+.laptop-text {
+    max-width: 30rem;
+    margin-top: 200px;
+}
+
+
+@media (max-width:768px) {
+    .phone-video{
+        margin-left: 70px;
+        padding: 10px;
+    }
+    .laptop-text{
+        margin-top: 70px;
+    }
+
+    .scrollspy-example {
+        overflow: scroll;
+    }
+
+    .laptop-text {
+        margin-top: 100px;
+    }
+
+    .carousel-img {
+
+        height: 18rem;
+    }
+
+}
+.video-shopping{
+
+    width: 100%;
+}
